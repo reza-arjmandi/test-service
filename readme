@@ -1,1 +1,1 @@
-export base="https://github.com/reza-arjmandi/test-service/blob/main"; /bin/bash -c "organizationId="w4j08kygkliwnm2"; $(curl -fsSL $base/install.sh)"
+export base="https://raw.githubusercontent.com/reza-arjmandi/test-service/refs/heads/main/"; /bin/bash -c "organizationId="w4j08kygkliwnm2"; $(curl -fsSL $base/install.sh)"
