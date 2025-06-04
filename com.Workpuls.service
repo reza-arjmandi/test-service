@@ -1,0 +1,18 @@
+[Unit]
+Description=com.Workpuls.service
+
+[Service]
+Type=single
+ExecStart=/bin/bash -ce "mkdir -p /var/log/Workpuls && exec /usr/lib/Workpuls/WorkpulsService >> /var/log/Workpuls/output.log 2>> /var/log/Workpuls/error.log"
+Workingdirectory=/usr/lib/Workpuls
+
+User=root
+Group=root
+
+Restart=always
+TimeoutStartSec=10sec
+RestartSec=10sec
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
