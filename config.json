@@ -1,0 +1,7 @@
+{
+    "id": "organizationId",
+    "api": "https://staging.workpuls.com/api/v1",
+    "pipeline": "https://staging.workpuls.com/pipeline/v1",
+    "realtime": "https://staging.workpuls.com",
+    "updates": "https://github.com/reza-arjmandi/test-service/blob/main/"
+}
